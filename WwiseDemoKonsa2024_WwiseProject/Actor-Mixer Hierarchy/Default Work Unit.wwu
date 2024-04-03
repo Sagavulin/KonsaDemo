@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F40FE08F-F404-453B-8CBE-70BD1D15A525}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F40FE08F-F404-453B-8CBE-70BD1D15A525}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player" ID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}" PersistMode="Reference"/>
+				<Sound Name="debug" ID="{134B53A8-A483-43C2-9F86-388365F91410}" ShortID="129747837">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F49B6ED-F4F3-43B8-B727-C836578CDA33}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{078205E5-1843-4C2E-934D-9F675FA4EE8F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="debug" ID="{FA4B6D6D-7704-446D-971F-A7DBBAE0A128}">
+							<Language>SFX</Language>
+							<AudioFile>debug.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="105171383"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="debug" ID="{FA4B6D6D-7704-446D-971F-A7DBBAE0A128}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{03773D69-0B64-4046-BA1F-DA00A5C0004F}" SchemaVersion="119" RootDocumentID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" ParentDocumentID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}">
+	<Events>
+		<WorkUnit Name="Player" ID="{03773D69-0B64-4046-BA1F-DA00A5C0004F}" OwnerID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Player_Footstep" ID="{70F759B9-747F-45C8-BB3F-366939899B55}">
+					<ChildrenList>
+						<Action Name="" ID="{84F76409-6646-4143-B52C-D536A19D66EF}" ShortID="800410028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep_Surface" ID="{62E1A736-558F-4769-BF91-AF4AD712C554}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Player_Land" ID="{4CC3EC9C-5D3C-4305-BFC8-24209FF2AD07}">
+					<ChildrenList>
+						<Action Name="" ID="{E95396E4-3A38-487B-8DDD-C2C167732DE1}" ShortID="505841989">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land_VO" ID="{F6F64E64-974E-4090-941F-C531AE2164C7}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E65B6845-9CED-45EA-A242-4C66BE1BB5FD}" ShortID="1031761928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land_Surface" ID="{E73D463F-4B43-4D01-B08B-36A8EE796B51}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,14 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2471758783	Player_MovementSpeed			\Default Work Unit\Player\Player_MovementSpeed	
+
+Switch	ID	Name	Switch Group			Notes
+	712161704	Run	Player_MovementSpeed			
+	2108779966	Walk	Player_MovementSpeed			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

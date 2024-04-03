@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D6EB82CA-F9F5-4D8A-83B5-27CD9002D7A5}" SchemaVersion="119" RootDocumentID="{54B4E22F-969F-4209-8C5C-6C1652841EB7}" ParentDocumentID="{54B4E22F-969F-4209-8C5C-6C1652841EB7}">
+	<Switches>
+		<WorkUnit Name="Player" ID="{D6EB82CA-F9F5-4D8A-83B5-27CD9002D7A5}" OwnerID="{54B4E22F-969F-4209-8C5C-6C1652841EB7}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{77DC50A3-2FB8-43A4-9AFA-C617D980CA3B}">
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{D82FAB15-A7BE-4C47-BDA5-69DDC7B3BB6F}"/>
+						<Switch Name="Stone" ID="{88BF5C66-6E21-4773-9D70-EFD35C272609}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_MovementSpeed" ID="{A74FD494-DB64-4F8E-A4D8-4B8C4D940C1F}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Walk" ID="{30EFD635-5E8B-46F0-A515-FA5398EF33B3}"/>
+						<Switch Name="Run" ID="{12EF65C9-CE34-4D26-9F09-4821D2DDF330}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{7C89661B-4FD3-4081-BB88-9FE6DBF1EF4A}"/>
+						<Curve Name="" ID="{186E14E5-D0A8-4AF9-B406-C12CCB652F59}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>3.99888</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
