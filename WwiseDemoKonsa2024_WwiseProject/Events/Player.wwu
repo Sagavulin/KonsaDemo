@@ -32,6 +32,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Jump" ID="{CAE92733-FE5C-4694-A6DD-ABF7C250317C}">
+					<ChildrenList>
+						<Action Name="" ID="{8DB10975-3168-4101-BDE4-2753E7D2075D}" ShortID="5054394">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Jump_foley" ID="{2AAA52B5-3557-4E67-9CCB-77D3413C91BA}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{614777E7-3CAE-4EB9-8B57-9DA50BF3CF33}" ShortID="147949935">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Jump_VO" ID="{3E6F840C-5E18-48AB-A673-A44964DE082D}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

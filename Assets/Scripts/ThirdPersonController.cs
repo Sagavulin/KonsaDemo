@@ -273,7 +273,6 @@ namespace StarterAssets
                 transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
             }
 
-
             Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
 
             // move the player
@@ -285,7 +284,6 @@ namespace StarterAssets
             {
                 _animator.SetFloat(_animIDSpeed, _animationBlend);
                 _animator.SetFloat(_animIDMotionSpeed, inputMagnitude);
-                //OnFootstep();
             }
         }
 
@@ -320,13 +318,14 @@ namespace StarterAssets
                     {
                         _animator.SetBool(_animIDJump, true);
                     }
-
                 }
 
                 // jump timeout
                 if (_jumpTimeoutDelta >= 0.0f)
                 {
                     _jumpTimeoutDelta -= Time.deltaTime;
+                    //AkSoundEngine.SetRTPCValue("Player_LandHeight", Time.deltaTime * 1000);
+                    //Debug.Log("AIR TIME: " + Time.deltaTime * 1000);
                 }
             }
             else
@@ -388,9 +387,17 @@ namespace StarterAssets
             }
         }
 
-        private void OnLand(AnimationEvent animationEvent)
+        private void OnJump(AnimationEvent animationEvent)
         {
             if (animationEvent.animatorClipInfo.weight > 0.5f)
+            {
+                AkSoundEngine.PostEvent("Player_Jump", gameObject);
+            }   
+        }
+        
+        private void OnLand(AnimationEvent animationEvent)
+        {
+            if (animationEvent.animatorClipInfo.weight > 0.1f)
             {
                 AkSoundEngine.PostEvent("Player_Land", gameObject);
             }
