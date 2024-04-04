@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1031089514	Debug			\Default Work Unit\Debug	
 	1305133589	Player_Jump			\Default Work Unit\Player\Player_Jump	
 	2453392179	Player_Footstep			\Default Work Unit\Player\Player_Footstep	
 	3629196698	Player_Land			\Default Work Unit\Player\Player_Land	
@@ -22,7 +21,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	48571930	BAS_Player_Footstep_dirt_walk_02	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\BAS_Player_Footstep_dirt_walk_02_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footstep\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\BAS_Player_Footstep_dirt_walk_02		41652
 	81943748	Player_Jump_VO_02	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Player_Jump_VO_02_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Jump\Player_Jump_VO\Player_Jump_VO_02		17854
 	99164870	BAS_Player_Footstep_dirt_walk_01	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\BAS_Player_Footstep_dirt_walk_01_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Footstep\Footstep_Surface\Player_Footstep_Dirt\Player_Footstep_dirt_walk\BAS_Player_Footstep_dirt_walk_01		47220
-	105171383	debug	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\debug_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\debug		34854
 	105947564	Player_Jump_foley_02	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Player_Jump_foley_02_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Jump\Player_Jump_foley\Player_Jump_foley_02		13926
 	126941253	Player_Jump_VO_03	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Player_Jump_VO_03_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Jump\Player_Jump_VO\Player_Jump_VO_03		20028
 	133750228	Player_Land_stone_05	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Player_Land_stone_05_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player\Land\Land_Surface\Player_Land_stone\Player_Land_stone_05		47136

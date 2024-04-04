@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{392225A1-7C2E-41AB-8CDE-76D49F9F7080}" SchemaVersion="119">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{392225A1-7C2E-41AB-8CDE-76D49F9F7080}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{392225A1-7C2E-41AB-8CDE-76D49F9F7080}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Ambiences" ID="{4151915F-7B2F-4325-A2ED-AE015BE12C62}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Amb_nature_loop" ID="{88BEC1E5-3C9B-43C2-8F63-0D7F2454E681}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_space_loop" ID="{BA4A4742-F5B2-4074-9A93-5A3E5B757E8A}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_birds" ID="{2F11081F-3E37-414D-85E9-8EFBEBE165D0}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_rocks" ID="{F9F4159B-C381-4910-A516-32CAF3362DE1}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_wind_gusts" ID="{F7AD0C7D-EF6D-47F0-9A1C-2156FE88805F}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_wind_gusts_space" ID="{8A557BDD-ECBF-4365-B676-A7FA935A6350}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Amb_bugs" ID="{5DF707B7-C12E-432C-964F-C3823397406C}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Dirt" ID="{D82FAB15-A7BE-4C47-BDA5-69DDC7B3BB6F}"/>
+						<CurrentSwitchRef Name="Run" ID="{12EF65C9-CE34-4D26-9F09-4821D2DDF330}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

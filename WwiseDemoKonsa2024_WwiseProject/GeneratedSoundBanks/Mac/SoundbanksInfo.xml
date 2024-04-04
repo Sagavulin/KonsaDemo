@@ -9,7 +9,178 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{D48ECE0B-23DD-A4B6-4AE5-FE6A7F94F7BE}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{7C0E738D-41C7-6029-DF73-49EE13614D65}">
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<Media>
+				<File Id="93467119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_02.wav</ShortName>
+					<CachePath>SFX/Amb_bug_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="98017422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_05.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="142460107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_03.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="291797520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_04.wav</ShortName>
+					<CachePath>SFX/Amb_bug_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="295756657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_02.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="423115084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_05.wav</ShortName>
+					<CachePath>SFX/Amb_bug_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="431647616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_01.wav</ShortName>
+					<CachePath>SFX/Amb_bug_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="434009640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_06.wav</ShortName>
+					<CachePath>SFX/Amb_bug_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="492251510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_02.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="511125576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_02.wav</ShortName>
+					<CachePath>SFX/Amb_bird_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="532053697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_01.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="560632194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_03.wav</ShortName>
+					<CachePath>SFX/Amb_bug_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="574087331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_nature_loop_01.wav</ShortName>
+					<CachePath>SFX/Amb_nature_loop_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="577442661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_08.wav</ShortName>
+					<CachePath>SFX/Amb_bird_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="585316257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_06.wav</ShortName>
+					<CachePath>SFX/Amb_bird_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="609100933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_04.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="616827618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_02.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="617544441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_07.wav</ShortName>
+					<CachePath>SFX/Amb_bug_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="627073946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_04.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="687641640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_10.wav</ShortName>
+					<CachePath>SFX/Amb_bird_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="723390259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_03.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="732867945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_loop_01.wav</ShortName>
+					<CachePath>SFX/Amb_space_loop_01_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="740144305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_09.wav</ShortName>
+					<CachePath>SFX/Amb_bird_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="750964628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_03.wav</ShortName>
+					<CachePath>SFX/Amb_bird_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="800017947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_01.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="831573566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_07.wav</ShortName>
+					<CachePath>SFX/Amb_bird_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="852626961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_01.wav</ShortName>
+					<CachePath>SFX/Amb_bird_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="856678305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_05.wav</ShortName>
+					<CachePath>SFX/Amb_bird_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="880309398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_04.wav</ShortName>
+					<CachePath>SFX/Amb_bird_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="922808856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_04.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946847479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_03.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1058273560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_01.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2291972081" Name="Amb_base" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="93467119"/>
+						<MediaRef Id="291797520"/>
+						<MediaRef Id="295756657"/>
+						<MediaRef Id="423115084"/>
+						<MediaRef Id="431647616"/>
+						<MediaRef Id="434009640"/>
+						<MediaRef Id="511125576"/>
+						<MediaRef Id="532053697"/>
+						<MediaRef Id="560632194"/>
+						<MediaRef Id="574087331"/>
+						<MediaRef Id="577442661"/>
+						<MediaRef Id="585316257"/>
+						<MediaRef Id="617544441"/>
+						<MediaRef Id="627073946"/>
+						<MediaRef Id="687641640"/>
+						<MediaRef Id="723390259"/>
+						<MediaRef Id="740144305"/>
+						<MediaRef Id="750964628"/>
+						<MediaRef Id="831573566"/>
+						<MediaRef Id="852626961"/>
+						<MediaRef Id="856678305"/>
+						<MediaRef Id="880309398"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3405134537" Name="Amb_tower" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="492251510"/>
+						<MediaRef Id="609100933"/>
+						<MediaRef Id="732867945"/>
+						<MediaRef Id="800017947"/>
+						<MediaRef Id="946847479"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{4007AB89-2EB5-FE54-CDBA-526ED7971E48}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -17,17 +188,45 @@
 					<ShortName>BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="81943748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_VO_02.wav</ShortName>
+					<CachePath>SFX/Player_Jump_VO_02_818F3B66.wem</CachePath>
+				</File>
 				<File Id="99164870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_818F3B66.wem</CachePath>
 				</File>
-				<File Id="105171383" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>debug.wav</ShortName>
-					<CachePath>SFX/debug_818F3B66.wem</CachePath>
+				<File Id="105947564" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_foley_02.wav</ShortName>
+					<CachePath>SFX/Player_Jump_foley_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="126941253" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_VO_03.wav</ShortName>
+					<CachePath>SFX/Player_Jump_VO_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="133750228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_05.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="148276870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_hi_03.wav</ShortName>
+					<CachePath>SFX/Player_Land_hi_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="149239292" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_lo_04.wav</ShortName>
+					<CachePath>SFX/Player_Land_lo_04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="183621068" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_04.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="197619755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_hi_02.wav</ShortName>
+					<CachePath>SFX/Player_Land_hi_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="200243249" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_lo_01.wav</ShortName>
+					<CachePath>SFX/Player_Land_lo_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="201510570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_run_05.wav</ShortName>
@@ -37,6 +236,14 @@
 					<ShortName>BAS_Player_Footstep_stone_walk_05.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="233351437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_foley_01.wav</ShortName>
+					<CachePath>SFX/Player_Jump_foley_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="248029360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_04.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_04_818F3B66.wem</CachePath>
+				</File>
 				<File Id="256233182" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_walk_04.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_04_818F3B66.wem</CachePath>
@@ -45,17 +252,41 @@
 					<ShortName>BAS_Player_Footstep_stone_walk_02.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="320147395" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_foley_03.wav</ShortName>
+					<CachePath>SFX/Player_Jump_foley_03_818F3B66.wem</CachePath>
+				</File>
 				<File Id="354471396" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_walk_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="360166745" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_06.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="403434575" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_02.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="460804791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_05.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_05_818F3B66.wem</CachePath>
 				</File>
 				<File Id="504004436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_02.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="505026650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_lo_03.wav</ShortName>
+					<CachePath>SFX/Player_Land_lo_03_818F3B66.wem</CachePath>
+				</File>
 				<File Id="525260461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_run_06.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_run_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="529235567" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_hi_01.wav</ShortName>
+					<CachePath>SFX/Player_Land_hi_01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="534185182" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_run_03.wav</ShortName>
@@ -77,13 +308,33 @@
 					<ShortName>BAS_Player_Footstep_dirt_run_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_run_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="643655798" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Jump_VO_01.wav</ShortName>
+					<CachePath>SFX/Player_Jump_VO_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="648235542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_walk_03.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="661760054" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_01.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="673828999" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_lo_02.wav</ShortName>
+					<CachePath>SFX/Player_Land_lo_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="700524122" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_01.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_01_818F3B66.wem</CachePath>
+				</File>
 				<File Id="719413001" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_walk_06.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="735482643" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_04.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_04_818F3B66.wem</CachePath>
 				</File>
 				<File Id="749999825" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
@@ -93,6 +344,10 @@
 					<ShortName>BAS_Player_Footstep_stone_run_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_01_818F3B66.wem</CachePath>
 				</File>
+				<File Id="860919583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_07.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_07_818F3B66.wem</CachePath>
+				</File>
 				<File Id="876859697" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_04.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_04_818F3B66.wem</CachePath>
@@ -101,25 +356,40 @@
 					<ShortName>BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_03_818F3B66.wem</CachePath>
 				</File>
+				<File Id="888487327" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_03.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_03_818F3B66.wem</CachePath>
+				</File>
 				<File Id="941687240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_06.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="942932008" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_stone_06.wav</ShortName>
+					<CachePath>SFX/Player_Land_stone_06_818F3B66.wem</CachePath>
 				</File>
 				<File Id="948619234" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_05.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_05_818F3B66.wem</CachePath>
 				</File>
+				<File Id="959540489" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_03.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_03_818F3B66.wem</CachePath>
+				</File>
 				<File Id="1007885798" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_run_02.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_run_02_818F3B66.wem</CachePath>
 				</File>
+				<File Id="1018198924" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_dirt_02.wav</ShortName>
+					<CachePath>SFX/Player_Land_dirt_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1039023906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Land_hi_04.wav</ShortName>
+					<CachePath>SFX/Player_Land_hi_04_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="1031089514" Name="Debug" DurationType="OneShot" DurationMin="0.39408162" DurationMax="0.39408162">
-					<MediaRefs>
-						<MediaRef Id="105171383"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0.26274377" DurationMax="0.5771882">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -232,8 +502,79 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="1305133589" Name="Player_Jump" DurationType="OneShot" DurationMin="0.17180417" DurationMax="0.23328106">
+					<MediaRefs>
+						<MediaRef Id="81943748"/>
+						<MediaRef Id="105947564"/>
+						<MediaRef Id="126941253"/>
+						<MediaRef Id="233351437"/>
+						<MediaRef Id="320147395"/>
+						<MediaRef Id="643655798"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3629196698" Name="Player_Land" DurationType="OneShot" DurationMin="0.5573243" DurationMax="0.8106576">
+					<MediaRefs>
+						<MediaRef Id="148276870"/>
+						<MediaRef Id="149239292"/>
+						<MediaRef Id="197619755"/>
+						<MediaRef Id="200243249"/>
+						<MediaRef Id="505026650"/>
+						<MediaRef Id="529235567"/>
+						<MediaRef Id="673828999"/>
+						<MediaRef Id="1039023906"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="248029360"/>
+								<MediaRef Id="360166745"/>
+								<MediaRef Id="460804791"/>
+								<MediaRef Id="700524122"/>
+								<MediaRef Id="860919583"/>
+								<MediaRef Id="959540489"/>
+								<MediaRef Id="1018198924"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="133750228"/>
+								<MediaRef Id="403434575"/>
+								<MediaRef Id="661760054"/>
+								<MediaRef Id="735482643"/>
+								<MediaRef Id="888487327"/>
+								<MediaRef Id="942932008"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="248029360"/>
+								<MediaRef Id="360166745"/>
+								<MediaRef Id="460804791"/>
+								<MediaRef Id="700524122"/>
+								<MediaRef Id="860919583"/>
+								<MediaRef Id="959540489"/>
+								<MediaRef Id="1018198924"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="133750228"/>
+								<MediaRef Id="403434575"/>
+								<MediaRef Id="661760054"/>
+								<MediaRef Id="735482643"/>
+								<MediaRef Id="888487327"/>
+								<MediaRef Id="942932008"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="427483143" Name="Player_LandHeight"/>
 				<GameParameter Id="2471758783" Name="Player_MovementSpeed"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -252,7 +593,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CF7C1014-431D-5201-44E1-369E9951EE02}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{77E71EF7-A769-DD8C-1C2F-E9DA7022516A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -265,6 +606,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="427483143" Name="Player_LandHeight"/>
 				<GameParameter Id="2471758783" Name="Player_MovementSpeed"/>
 			</GameParameters>
 			<SwitchGroups>
@@ -284,5 +626,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E11FBBCC-6A1E-3527-5761-73897D0E6B9C}</FileHash>
+	<FileHash>{49F859D6-03FF-F7CD-297E-C73440A82F16}</FileHash>
 </SoundBanksInfo>

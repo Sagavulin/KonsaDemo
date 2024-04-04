@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMB_BASE = 2291972081U;
+        static const AkUniqueID AMB_ROOMIN = 37811290U;
+        static const AkUniqueID AMB_ROOMOUT = 3778815189U;
+        static const AkUniqueID AMB_TOWER = 3405134537U;
         static const AkUniqueID DEBUG = 1031089514U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
@@ -54,6 +58,8 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID DEBUG = 1031089514U;
         static const AkUniqueID PLAYER = 1069431850U;
     } // namespace BANKS
 

@@ -15,6 +15,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Ambience" ID="{D800ACB6-35A8-4A91-8A05-658574831F85}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

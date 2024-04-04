@@ -5,8 +5,24 @@
 			<ChildrenList>
 				<SoundBank Name="Player" ID="{2ED9B66D-F8F6-416C-8C9B-4812E142C99C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" WorkUnitID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{F40FE08F-F404-453B-8CBE-70BD1D15A525}" WorkUnitID="{F40FE08F-F404-453B-8CBE-70BD1D15A525}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{03773D69-0B64-4046-BA1F-DA00A5C0004F}" WorkUnitID="{03773D69-0B64-4046-BA1F-DA00A5C0004F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}" WorkUnitID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambience" ID="{2E4A1C63-D651-42C3-A12E-AB999C8A2F91}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambience" ID="{D800ACB6-35A8-4A91-8A05-658574831F85}" WorkUnitID="{D800ACB6-35A8-4A91-8A05-658574831F85}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Debug" ID="{49D6BB32-6B55-40BC-AD31-737FD9359AF8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="debug" ID="{134B53A8-A483-43C2-9F86-388365F91410}" WorkUnitID="{F40FE08F-F404-453B-8CBE-70BD1D15A525}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Debug" ID="{BB7128CA-05F7-49FF-B600-B304DC462482}" WorkUnitID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

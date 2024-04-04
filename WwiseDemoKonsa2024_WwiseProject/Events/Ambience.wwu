@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D800ACB6-35A8-4A91-8A05-658574831F85}" SchemaVersion="119" RootDocumentID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" ParentDocumentID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{D800ACB6-35A8-4A91-8A05-658574831F85}" OwnerID="{940EC12A-A6E6-4309-9B7A-87D2C1D6736C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Amb_base" ID="{218F1D44-C086-4ED2-9FE4-9E97577919A5}">
+					<ChildrenList>
+						<Action Name="" ID="{F21B4ADA-0F86-46FF-AA01-352E47808498}" ShortID="12739373">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_base" ID="{E16961F1-5857-4E89-BFE5-C5956BFA88AF}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1F413328-1788-4EBD-B611-FDA3BB4193CE}" ShortID="613309045">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_tower" ID="{839BBB6E-7B97-4472-A430-6059A4AB31F9}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_tower" ID="{3232A133-0387-4D44-BC93-980356D73A50}">
+					<ChildrenList>
+						<Action Name="" ID="{049F1A02-694C-4629-8AB6-962DFC386611}" ShortID="272755797">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_tower" ID="{839BBB6E-7B97-4472-A430-6059A4AB31F9}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BC696E22-4600-4A3A-AC98-AD3C7E1A6769}" ShortID="617612616">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_base" ID="{E16961F1-5857-4E89-BFE5-C5956BFA88AF}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_RoomIn" ID="{B8131A79-9D7E-4E00-81C9-37D060F71479}">
+					<ChildrenList>
+						<Action Name="" ID="{C0FDF2C2-F891-4BC4-BE2D-8C3A2024F1F5}" ShortID="708758756">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Lowpass" Type="int16" Value="50"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_base" ID="{E16961F1-5857-4E89-BFE5-C5956BFA88AF}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{194A1E0C-DA96-4128-B16C-D34AC9A7A423}" ShortID="66372895">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_wind_gusts" ID="{F7AD0C7D-EF6D-47F0-9A1C-2156FE88805F}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A95B6F17-3226-4BB5-95A5-10B7EA02D744}" ShortID="760379781">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_birds" ID="{2F11081F-3E37-414D-85E9-8EFBEBE165D0}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6AEF97AA-D7C8-4ACC-BBCF-F7B4FBE33AD9}" ShortID="563111852">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_bugs" ID="{5DF707B7-C12E-432C-964F-C3823397406C}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_RoomOut" ID="{B89F4E02-E480-4E36-A940-77ECD52ABDD6}">
+					<ChildrenList>
+						<Action Name="" ID="{8CBF31CB-1211-4371-B146-2045D41164B4}" ShortID="560794402">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="27"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Lowpass" Type="int16" Value="-50"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_base" ID="{E16961F1-5857-4E89-BFE5-C5956BFA88AF}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7A1F610-F45B-4F9B-A7B6-38FAA92EFC14}" ShortID="879178447">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

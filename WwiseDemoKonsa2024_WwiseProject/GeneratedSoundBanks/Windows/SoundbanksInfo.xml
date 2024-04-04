@@ -9,7 +9,274 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{B208DF32-D30F-3B0D-F928-DBA6207AF4CA}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{524361EA-B185-6359-9BD8-05770819FC67}">
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<Media>
+				<File Id="93467119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_02.wav</ShortName>
+					<CachePath>SFX/Amb_bug_02_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="98017422" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_05.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_05_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="142460107" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_03.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="291797520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_04.wav</ShortName>
+					<CachePath>SFX/Amb_bug_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="295756657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_02.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_02_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="423115084" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_05.wav</ShortName>
+					<CachePath>SFX/Amb_bug_05_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="431647616" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_01.wav</ShortName>
+					<CachePath>SFX/Amb_bug_01_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="434009640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_06.wav</ShortName>
+					<CachePath>SFX/Amb_bug_06_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="492251510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_02.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_02_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="511125576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_02.wav</ShortName>
+					<CachePath>SFX/Amb_bird_02_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="532053697" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_01.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_01_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="560632194" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_03.wav</ShortName>
+					<CachePath>SFX/Amb_bug_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="574087331" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_nature_loop_01.wav</ShortName>
+					<CachePath>SFX/Amb_nature_loop_01_1A0842C8.wem</CachePath>
+				</File>
+				<File Id="577442661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_08.wav</ShortName>
+					<CachePath>SFX/Amb_bird_08_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="585316257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_06.wav</ShortName>
+					<CachePath>SFX/Amb_bird_06_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="609100933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_04.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="616827618" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_02.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_02_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="617544441" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bug_07.wav</ShortName>
+					<CachePath>SFX/Amb_bug_07_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="627073946" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_04.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="687641640" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_10.wav</ShortName>
+					<CachePath>SFX/Amb_bird_10_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="723390259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_forest_wind_03.wav</ShortName>
+					<CachePath>SFX/Amb_forest_wind_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="732867945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_loop_01.wav</ShortName>
+					<CachePath>SFX/Amb_space_loop_01_1A0842C8.wem</CachePath>
+				</File>
+				<File Id="740144305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_09.wav</ShortName>
+					<CachePath>SFX/Amb_bird_09_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="750964628" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_03.wav</ShortName>
+					<CachePath>SFX/Amb_bird_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="800017947" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_01.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_01_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="831573566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_07.wav</ShortName>
+					<CachePath>SFX/Amb_bird_07_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="852626961" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_01.wav</ShortName>
+					<CachePath>SFX/Amb_bird_01_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="856678305" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_05.wav</ShortName>
+					<CachePath>SFX/Amb_bird_05_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="880309398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_bird_04.wav</ShortName>
+					<CachePath>SFX/Amb_bird_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="922808856" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_04.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="946847479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_space_wind_03.wav</ShortName>
+					<CachePath>SFX/Amb_space_wind_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="1058273560" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Amb_rocks_fall_01.wav</ShortName>
+					<CachePath>SFX/Amb_rocks_fall_01_89E8A5BE.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2291972081" Name="Amb_base" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="93467119"/>
+						<MediaRef Id="291797520"/>
+						<MediaRef Id="295756657"/>
+						<MediaRef Id="423115084"/>
+						<MediaRef Id="431647616"/>
+						<MediaRef Id="434009640"/>
+						<MediaRef Id="492251510"/>
+						<MediaRef Id="511125576"/>
+						<MediaRef Id="532053697"/>
+						<MediaRef Id="560632194"/>
+						<MediaRef Id="574087331"/>
+						<MediaRef Id="577442661"/>
+						<MediaRef Id="585316257"/>
+						<MediaRef Id="609100933"/>
+						<MediaRef Id="617544441"/>
+						<MediaRef Id="627073946"/>
+						<MediaRef Id="687641640"/>
+						<MediaRef Id="723390259"/>
+						<MediaRef Id="732867945"/>
+						<MediaRef Id="740144305"/>
+						<MediaRef Id="750964628"/>
+						<MediaRef Id="800017947"/>
+						<MediaRef Id="831573566"/>
+						<MediaRef Id="852626961"/>
+						<MediaRef Id="856678305"/>
+						<MediaRef Id="880309398"/>
+						<MediaRef Id="946847479"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="37811290" Name="Amb_RoomIn" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="93467119"/>
+						<MediaRef Id="291797520"/>
+						<MediaRef Id="295756657"/>
+						<MediaRef Id="423115084"/>
+						<MediaRef Id="431647616"/>
+						<MediaRef Id="434009640"/>
+						<MediaRef Id="511125576"/>
+						<MediaRef Id="532053697"/>
+						<MediaRef Id="560632194"/>
+						<MediaRef Id="574087331"/>
+						<MediaRef Id="577442661"/>
+						<MediaRef Id="585316257"/>
+						<MediaRef Id="617544441"/>
+						<MediaRef Id="627073946"/>
+						<MediaRef Id="687641640"/>
+						<MediaRef Id="723390259"/>
+						<MediaRef Id="740144305"/>
+						<MediaRef Id="750964628"/>
+						<MediaRef Id="831573566"/>
+						<MediaRef Id="852626961"/>
+						<MediaRef Id="856678305"/>
+						<MediaRef Id="880309398"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3778815189" Name="Amb_RoomOut" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="93467119"/>
+						<MediaRef Id="291797520"/>
+						<MediaRef Id="295756657"/>
+						<MediaRef Id="423115084"/>
+						<MediaRef Id="431647616"/>
+						<MediaRef Id="434009640"/>
+						<MediaRef Id="511125576"/>
+						<MediaRef Id="532053697"/>
+						<MediaRef Id="560632194"/>
+						<MediaRef Id="574087331"/>
+						<MediaRef Id="577442661"/>
+						<MediaRef Id="585316257"/>
+						<MediaRef Id="617544441"/>
+						<MediaRef Id="627073946"/>
+						<MediaRef Id="687641640"/>
+						<MediaRef Id="723390259"/>
+						<MediaRef Id="740144305"/>
+						<MediaRef Id="750964628"/>
+						<MediaRef Id="831573566"/>
+						<MediaRef Id="852626961"/>
+						<MediaRef Id="856678305"/>
+						<MediaRef Id="880309398"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3405134537" Name="Amb_tower" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="93467119"/>
+						<MediaRef Id="291797520"/>
+						<MediaRef Id="295756657"/>
+						<MediaRef Id="423115084"/>
+						<MediaRef Id="431647616"/>
+						<MediaRef Id="434009640"/>
+						<MediaRef Id="492251510"/>
+						<MediaRef Id="511125576"/>
+						<MediaRef Id="532053697"/>
+						<MediaRef Id="560632194"/>
+						<MediaRef Id="574087331"/>
+						<MediaRef Id="577442661"/>
+						<MediaRef Id="585316257"/>
+						<MediaRef Id="609100933"/>
+						<MediaRef Id="617544441"/>
+						<MediaRef Id="627073946"/>
+						<MediaRef Id="687641640"/>
+						<MediaRef Id="723390259"/>
+						<MediaRef Id="732867945"/>
+						<MediaRef Id="740144305"/>
+						<MediaRef Id="750964628"/>
+						<MediaRef Id="800017947"/>
+						<MediaRef Id="831573566"/>
+						<MediaRef Id="852626961"/>
+						<MediaRef Id="856678305"/>
+						<MediaRef Id="880309398"/>
+						<MediaRef Id="946847479"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1031089514" Type="User" Language="SFX" Hash="{1AA1A2B1-CC9C-47EC-0A43-33F47EC41E6F}">
+			<ShortName>Debug</ShortName>
+			<Path>Debug.bnk</Path>
+			<Media>
+				<File Id="105171383" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>debug.wav</ShortName>
+					<CachePath>SFX/debug_89E8A5BE.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1031089514" Name="Debug" DurationType="OneShot" DurationMin="0.39408162" DurationMax="0.39408162">
+					<MediaRefs>
+						<MediaRef Id="105171383"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{7D7CADC3-914E-8ACE-5EFD-321B07EA843F}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -24,10 +291,6 @@
 				<File Id="99164870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_89E8A5BE.wem</CachePath>
-				</File>
-				<File Id="105171383" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>debug.wav</ShortName>
-					<CachePath>SFX/debug_89E8A5BE.wem</CachePath>
 				</File>
 				<File Id="105947564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump_foley_02.wav</ShortName>
@@ -223,11 +486,6 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1031089514" Name="Debug" DurationType="OneShot" DurationMin="0.39408162" DurationMax="0.39408162">
-					<MediaRefs>
-						<MediaRef Id="105171383"/>
-					</MediaRefs>
-				</Event>
 				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0.26274377" DurationMax="0.5771882">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -431,7 +689,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AF95AD0F-C0D2-0419-5D61-BF72AF0F04BD}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9986C08-F8C1-4430-F47D-DCF67387038E}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -464,5 +722,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{13517941-BEE8-221A-0A77-7D9CD2A7F0A9}</FileHash>
+	<FileHash>{BBB8A929-4053-33FC-6403-C6CB07C185D9}</FileHash>
 </SoundBanksInfo>

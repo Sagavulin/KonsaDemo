@@ -26,6 +26,7 @@
 						<ActiveSource Name="debug" ID="{FA4B6D6D-7704-446D-971F-A7DBBAE0A128}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<WorkUnit Name="Ambience" ID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
