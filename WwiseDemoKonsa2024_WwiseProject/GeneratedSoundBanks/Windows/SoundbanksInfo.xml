@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{524361EA-B185-6359-9BD8-05770819FC67}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{5B365D29-9655-9BEC-5521-65F4B093E856}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -124,6 +124,10 @@
 				<File Id="856678305" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_bird_05.wav</ShortName>
 					<CachePath>SFX/Amb_bird_05_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="873176980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>cue_mus_carousel_LOOP.wav</ShortName>
+					<CachePath>SFX/cue_mus_carousel_LOOP_1A0842C8.wem</CachePath>
 				</File>
 				<File Id="880309398" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Amb_bird_04.wav</ShortName>
@@ -257,7 +261,21 @@
 						<MediaRef Id="946847479"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3338942403" Name="Mus_carousel" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="873176980"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3377906990" Name="Mus_carousel_stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="873176980"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1031089514" Type="User" Language="SFX" Hash="{1AA1A2B1-CC9C-47EC-0A43-33F47EC41E6F}">
 			<ShortName>Debug</ShortName>
@@ -276,7 +294,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{7D7CADC3-914E-8ACE-5EFD-321B07EA843F}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{9384E220-E2EC-9123-26EA-FC87DF67C5EA}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -486,7 +504,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0.26274377" DurationMax="0.5771882">
+				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0.5771882">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
@@ -543,6 +561,10 @@
 							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
 							<Children>
 								<SwitchContainer>
@@ -595,6 +617,10 @@
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+							<Children/>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -684,12 +710,13 @@
 				<SwitchGroup Id="4064446173" Name="Surface_Type">
 					<Switches>
 						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9986C08-F8C1-4430-F47D-DCF67387038E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{65121BDB-C305-D568-0668-5DEDB2322B7B}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -702,6 +729,8 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 				<GameParameter Id="427483143" Name="Player_LandHeight"/>
 				<GameParameter Id="2471758783" Name="Player_MovementSpeed"/>
 			</GameParameters>
@@ -716,11 +745,12 @@
 				<SwitchGroup Id="4064446173" Name="Surface_Type">
 					<Switches>
 						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="2058049674" Name="Wood"/>
 						<Switch Id="2195636714" Name="Dirt"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BBB8A929-4053-33FC-6403-C6CB07C185D9}</FileHash>
+	<FileHash>{3A93297C-6A39-B3FE-1819-D32E9F9B1455}</FileHash>
 </SoundBanksInfo>

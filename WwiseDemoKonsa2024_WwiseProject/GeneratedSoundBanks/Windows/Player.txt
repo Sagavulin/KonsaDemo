@@ -11,6 +11,7 @@ Switch	ID	Name	Switch Group			Notes
 	712161704	Run	Player_MovementSpeed			
 	2108779966	Walk	Player_MovementSpeed			
 	1216965916	Stone	Surface_Type			
+	2058049674	Wood	Surface_Type			
 	2195636714	Dirt	Surface_Type			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

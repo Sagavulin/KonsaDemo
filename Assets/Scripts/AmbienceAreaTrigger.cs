@@ -5,17 +5,25 @@ using UnityEngine;
 
 public class AmbienceAreaTrigger : MonoBehaviour
 {
+    [SerializeField] private bool TriggerAtStart = false;
+    [SerializeField] private string SoundEventEnter;
+    [SerializeField] private string SoundEventExit;
     
+    private void Start()
+    {
+        if (TriggerAtStart)
+        {
+            AkSoundEngine.PostEvent(SoundEventEnter, gameObject);
+        }
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        AkSoundEngine.PostEvent("Amb_tower", gameObject);
-        Debug.Log("TriggerENTER");
+        AkSoundEngine.PostEvent(SoundEventEnter, gameObject);
     }
 
     private void OnTriggerExit(Collider other)
     {
-        AkSoundEngine.PostEvent("Amb_base", gameObject);
-        Debug.Log("TriggerEXIT");
-
+        AkSoundEngine.PostEvent(SoundEventExit, gameObject);
     }
 }

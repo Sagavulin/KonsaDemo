@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID AMB_ROOMOUT = 3778815189U;
         static const AkUniqueID AMB_TOWER = 3405134537U;
         static const AkUniqueID DEBUG = 1031089514U;
+        static const AkUniqueID MUS_CAROUSEL = 3338942403U;
+        static const AkUniqueID MUS_CAROUSEL_STOP = 3377906990U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
         static const AkUniqueID PLAYER_LAND = 3629196698U;
@@ -44,6 +46,7 @@ namespace AK
             {
                 static const AkUniqueID DIRT = 2195636714U;
                 static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace SURFACE_TYPE
 
@@ -53,6 +56,8 @@ namespace AK
     {
         static const AkUniqueID PLAYER_LANDHEIGHT = 427483143U;
         static const AkUniqueID PLAYER_MOVEMENTSPEED = 2471758783U;
+        static const AkUniqueID RTPC_OCCLUSION_LOPASS = 222722569U;
+        static const AkUniqueID RTPC_OCCLUSION_VOLUME = 342905355U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

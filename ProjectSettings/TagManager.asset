@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Dirt
+  - Stone
+  - Wood
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - 
   - Character
   - Ground
-  - 
-  - 
+  - Dirt
+  - Stone
   - 
   - 
   - 
@@ -41,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Dirt
+    uniqueID: 454948011
+    locked: 0
+  - name: Stone
+    uniqueID: 3115462555
     locked: 0

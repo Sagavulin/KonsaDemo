@@ -4,6 +4,24 @@
 		<WorkUnit Name="Default Work Unit" ID="{8D7A728A-DBC2-465B-865B-F8852D60AB2D}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Player" ID="{76FAC7AB-262C-48DF-9601-0DDE06B42755}" PersistMode="Reference"/>
+				<GameParameter Name="RTPC_Occlusion_LoPass" ID="{343B0D16-6B93-4846-82FF-674DEABE196C}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Occlusion_Volume" ID="{BB64767C-ABED-42B0-A474-E5EC8E791365}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

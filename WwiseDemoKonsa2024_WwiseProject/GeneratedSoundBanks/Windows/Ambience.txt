@@ -1,8 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
 	37811290	Amb_RoomIn			\Default Work Unit\Ambience\Amb_RoomIn	
 	2291972081	Amb_base			\Default Work Unit\Ambience\Amb_base	
+	3338942403	Mus_carousel			\Default Work Unit\Ambience\Mus_carousel	
+	3377906990	Mus_carousel_stop			\Default Work Unit\Ambience\Mus_carousel_stop	
 	3405134537	Amb_tower			\Default Work Unit\Ambience\Amb_tower	
 	3778815189	Amb_RoomOut			\Default Work Unit\Ambience\Amb_RoomOut	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	222722569	RTPC_Occlusion_LoPass			\Default Work Unit\RTPC_Occlusion_LoPass	
+	342905355	RTPC_Occlusion_Volume			\Default Work Unit\RTPC_Occlusion_Volume	
 
 Modulator LFO	ID	Name			Wwise Object Path	Notes
 	97077378	Modulator LFO (Custom)				
@@ -39,6 +45,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	831573566	Amb_bird_07	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_bird_07_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_base\Amb_birds\Amb_bird_07		55520
 	852626961	Amb_bird_01	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_bird_01_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_base\Amb_birds\Amb_bird_01		35372
 	856678305	Amb_bird_05	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_bird_05_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_base\Amb_birds\Amb_bird_05		34638
+	873176980	cue_mus_carousel_LOOP	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\cue_mus_carousel_LOOP_1A0842C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\cue_mus_carousel_LOOP		1589078
 	880309398	Amb_bird_04	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_bird_04_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_base\Amb_birds\Amb_bird_04		44226
 	922808856	Amb_rocks_fall_04	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_rocks_fall_04_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_Oneshots\Amb_rocks\Amb_rocks_fall_04		356938
 	946847479	Amb_space_wind_03	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\Amb_space_wind_03_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Ambience\Amb_tower\Amb_wind_gusts_space\Amb_space_wind_03		357008

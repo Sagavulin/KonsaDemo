@@ -132,6 +132,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Mus_carousel" ID="{76EAE48A-CA23-41C9-8475-474AF55A0E6C}">
+					<ChildrenList>
+						<Action Name="" ID="{F40556B2-57C2-4281-BE2C-1EF01A7C0C0A}" ShortID="881262975">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cue_mus_carousel_LOOP" ID="{9E513553-D7BF-4070-94FC-F52DCFD0E91B}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Mus_carousel_stop" ID="{DDED0C16-26C5-4686-A19F-5804CE76F7A2}">
+					<ChildrenList>
+						<Action Name="" ID="{8D0AF508-F886-48DF-8E9F-9A39BCF2FA10}" ShortID="198803132">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cue_mus_carousel_LOOP" ID="{9E513553-D7BF-4070-94FC-F52DCFD0E91B}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

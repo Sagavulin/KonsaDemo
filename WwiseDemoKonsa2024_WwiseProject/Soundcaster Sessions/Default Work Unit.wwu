@@ -34,7 +34,16 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Occlusion_Volume" ID="{BB64767C-ABED-42B0-A474-E5EC8E791365}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Occlusion_LoPass" ID="{343B0D16-6B93-4846-82FF-674DEABE196C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Dirt" ID="{D82FAB15-A7BE-4C47-BDA5-69DDC7B3BB6F}"/>

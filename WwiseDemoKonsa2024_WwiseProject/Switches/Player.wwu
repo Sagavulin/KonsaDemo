@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<Switch Name="Dirt" ID="{D82FAB15-A7BE-4C47-BDA5-69DDC7B3BB6F}"/>
 						<Switch Name="Stone" ID="{88BF5C66-6E21-4773-9D70-EFD35C272609}"/>
+						<Switch Name="Wood" ID="{16D7DD6B-E33B-4B2A-B6FD-1F3042882B3D}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Player_MovementSpeed" ID="{A74FD494-DB64-4F8E-A4D8-4B8C4D940C1F}">
