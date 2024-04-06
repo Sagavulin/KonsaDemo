@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class FootstepDetector : MonoBehaviour
 {
-    public LayerMask materialLayer;
+    //public LayerMask materialLayer;
 
     void Update()
     {
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, materialLayer))
+        float maxDistance = 0.5f;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, maxDistance))
         {
             string materialTag = hit.collider.tag;
 

@@ -294,7 +294,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{9384E220-E2EC-9123-26EA-FC87DF67C5EA}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{7D6D3459-4926-FA21-BAEF-2D9D23AFF8DA}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -309,6 +309,10 @@
 				<File Id="99164870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_01_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="100258467" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_05.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_05_89E8A5BE.wem</CachePath>
 				</File>
 				<File Id="105947564" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Jump_foley_02.wav</ShortName>
@@ -354,6 +358,10 @@
 					<ShortName>Player_Jump_foley_01.wav</ShortName>
 					<CachePath>SFX/Player_Jump_foley_01_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="240775512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_02.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_02_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="248029360" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_dirt_04.wav</ShortName>
 					<CachePath>SFX/Player_Land_dirt_04_89E8A5BE.wem</CachePath>
@@ -378,13 +386,29 @@
 					<ShortName>Player_Land_dirt_06.wav</ShortName>
 					<CachePath>SFX/Player_Land_dirt_06_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="396247214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_05.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_05_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="403434575" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_stone_02.wav</ShortName>
 					<CachePath>SFX/Player_Land_stone_02_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="406597428" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_06.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_06_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="441832329" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_01.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_01_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="460804791" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_dirt_05.wav</ShortName>
 					<CachePath>SFX/Player_Land_dirt_05_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="493761235" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_06.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_06_89E8A5BE.wem</CachePath>
 				</File>
 				<File Id="504004436" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_02.wav</ShortName>
@@ -414,6 +438,10 @@
 					<ShortName>BAS_Player_Footstep_dirt_run_04.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_run_04_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="582076955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_04.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_04_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="615480203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_05.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_05_89E8A5BE.wem</CachePath>
@@ -429,6 +457,10 @@
 				<File Id="648235542" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_walk_03.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_walk_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="650530995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_01.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_01_89E8A5BE.wem</CachePath>
 				</File>
 				<File Id="661760054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_stone_01.wav</ShortName>
@@ -458,6 +490,10 @@
 					<ShortName>BAS_Player_Footstep_stone_run_01.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_stone_run_01_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="850410868" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_03.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_03_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="860919583" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_dirt_07.wav</ShortName>
 					<CachePath>SFX/Player_Land_dirt_07_89E8A5BE.wem</CachePath>
@@ -470,9 +506,21 @@
 					<ShortName>BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
 					<CachePath>SFX/BAS_Player_Footstep_dirt_walk_03_89E8A5BE.wem</CachePath>
 				</File>
+				<File Id="885159813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_03.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_03_89E8A5BE.wem</CachePath>
+				</File>
 				<File Id="888487327" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Player_Land_stone_03.wav</ShortName>
 					<CachePath>SFX/Player_Land_stone_03_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="920288343" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_walk_04.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_walk_04_89E8A5BE.wem</CachePath>
+				</File>
+				<File Id="923188151" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_Footstep_wood_run_02.wav</ShortName>
+					<CachePath>SFX/Player_Footstep_wood_run_02_89E8A5BE.wem</CachePath>
 				</File>
 				<File Id="941687240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BAS_Player_Footstep_stone_run_06.wav</ShortName>
@@ -504,7 +552,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0.5771882">
+				<Event Id="2453392179" Name="Player_Footstep" DurationType="OneShot" DurationMin="0.25507936" DurationMax="0.5771882">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
@@ -562,7 +610,30 @@
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2471758783" Id="2108779966" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="240775512"/>
+										<MediaRef Id="396247214"/>
+										<MediaRef Id="406597428"/>
+										<MediaRef Id="650530995"/>
+										<MediaRef Id="885159813"/>
+										<MediaRef Id="920288343"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2471758783" Id="712161704"/>
+									<MediaRefs>
+										<MediaRef Id="100258467"/>
+										<MediaRef Id="441832329"/>
+										<MediaRef Id="493761235"/>
+										<MediaRef Id="582076955"/>
+										<MediaRef Id="850410868"/>
+										<MediaRef Id="923188151"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
@@ -620,7 +691,30 @@
 						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
-							<Children/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2471758783" Id="2108779966" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="240775512"/>
+										<MediaRef Id="396247214"/>
+										<MediaRef Id="406597428"/>
+										<MediaRef Id="650530995"/>
+										<MediaRef Id="885159813"/>
+										<MediaRef Id="920288343"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="2471758783" Id="712161704"/>
+									<MediaRefs>
+										<MediaRef Id="100258467"/>
+										<MediaRef Id="441832329"/>
+										<MediaRef Id="493761235"/>
+										<MediaRef Id="582076955"/>
+										<MediaRef Id="850410868"/>
+										<MediaRef Id="923188151"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -752,5 +846,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3A93297C-6A39-B3FE-1819-D32E9F9B1455}</FileHash>
+	<FileHash>{AB8A9065-56D7-0DDA-0666-D50376623240}</FileHash>
 </SoundBanksInfo>

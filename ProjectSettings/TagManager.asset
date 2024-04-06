@@ -21,7 +21,7 @@ TagManager:
   - Ground
   - Dirt
   - Stone
-  - 
+  - Wood
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Stone
     uniqueID: 3115462555
+    locked: 0
+  - name: Wood
+    uniqueID: 1887689783
     locked: 0
