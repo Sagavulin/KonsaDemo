@@ -18,15 +18,15 @@ public class FootstepDetector : MonoBehaviour
             {
                 case "Dirt":
                     AkSoundEngine.SetSwitch("Surface_Type", "Dirt", gameObject);
-                    Debug.Log("DIRT");
+                    //Debug.Log("DIRT");
                     break;
                 case "Stone":
                     AkSoundEngine.SetSwitch("Surface_Type", "Stone", gameObject);
-                    Debug.Log("STONE");
+                    //Debug.Log("STONE");
                     break;
                 case "Wood":
                     AkSoundEngine.SetSwitch("Surface_Type", "Wood", gameObject);
-                    Debug.Log("WOOD");
+                    //Debug.Log("WOOD");
                     break;
             }
         }
