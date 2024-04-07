@@ -135,6 +135,9 @@
 				<Event Name="Mus_carousel" ID="{76EAE48A-CA23-41C9-8475-474AF55A0E6C}">
 					<ChildrenList>
 						<Action Name="" ID="{F40556B2-57C2-4281-BE2C-1EF01A7C0C0A}" ShortID="881262975">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="cue_mus_carousel_LOOP" ID="{9E513553-D7BF-4070-94FC-F52DCFD0E91B}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
@@ -148,10 +151,22 @@
 						<Action Name="" ID="{8D0AF508-F886-48DF-8E9F-9A39BCF2FA10}" ShortID="198803132">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="cue_mus_carousel_LOOP" ID="{9E513553-D7BF-4070-94FC-F52DCFD0E91B}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Amb_rocks_fall" ID="{F7D2368D-691D-438E-9CA6-8698067F1C5C}">
+					<ChildrenList>
+						<Action Name="" ID="{B929FE1B-E851-43CF-B119-B36C2ED6FE3D}" ShortID="348977570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_rocks" ID="{F9F4159B-C381-4910-A516-32CAF3362DE1}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

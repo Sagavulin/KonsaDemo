@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMB_BASE = 2291972081U;
+        static const AkUniqueID AMB_ROCKS_FALL = 1022134324U;
         static const AkUniqueID AMB_ROOMIN = 37811290U;
         static const AkUniqueID AMB_ROOMOUT = 3778815189U;
         static const AkUniqueID AMB_TOWER = 3405134537U;

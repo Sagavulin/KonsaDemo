@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	37811290	Amb_RoomIn			\Default Work Unit\Ambience\Amb_RoomIn	
+	1022134324	Amb_rocks_fall			\Default Work Unit\Ambience\Amb_rocks_fall	
 	2291972081	Amb_base			\Default Work Unit\Ambience\Amb_base	
 	3338942403	Mus_carousel			\Default Work Unit\Ambience\Mus_carousel	
 	3377906990	Mus_carousel_stop			\Default Work Unit\Ambience\Mus_carousel_stop	

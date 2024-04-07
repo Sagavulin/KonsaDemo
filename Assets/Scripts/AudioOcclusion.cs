@@ -43,7 +43,7 @@ public class AudioOcclusion : MonoBehaviour
                 print(OutInfo.collider.gameObject.name);
                 
                 // Draw a visual representation of the raycast
-                Debug.DrawRay(transform.position, transform.forward * 100, rayColor);
+                Debug.DrawRay(transform.position, transform.forward * 100, rayColor, 5);
             }
 
             if (OutInfo.collider.gameObject.name != NameOfListener &&

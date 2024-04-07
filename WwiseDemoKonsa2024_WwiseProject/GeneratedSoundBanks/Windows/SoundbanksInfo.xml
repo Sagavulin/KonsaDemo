@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{5B365D29-9655-9BEC-5521-65F4B093E856}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{66ACE0FE-A68E-69F6-07E0-B5FCC4A420BD}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -178,6 +178,15 @@
 						<MediaRef Id="946847479"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1022134324" Name="Amb_rocks_fall" DurationType="OneShot" DurationMin="2.6014512" DurationMax="4.045828">
+					<MediaRefs>
+						<MediaRef Id="98017422"/>
+						<MediaRef Id="142460107"/>
+						<MediaRef Id="616827618"/>
+						<MediaRef Id="922808856"/>
+						<MediaRef Id="1058273560"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="37811290" Name="Amb_RoomIn" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
 						<MediaRef Id="93467119"/>
@@ -294,7 +303,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{7D6D3459-4926-FA21-BAEF-2D9D23AFF8DA}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{317F216E-A453-56BD-5FCA-3A0BD74D56B5}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -764,6 +773,17 @@
 							</MediaRefs>
 						</SwitchContainer>
 						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="100258467"/>
+								<MediaRef Id="441832329"/>
+								<MediaRef Id="493761235"/>
+								<MediaRef Id="582076955"/>
+								<MediaRef Id="850410868"/>
+								<MediaRef Id="923188151"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2195636714" Default="true"/>
 							<MediaRefs>
 								<MediaRef Id="248029360"/>
@@ -784,6 +804,17 @@
 								<MediaRef Id="735482643"/>
 								<MediaRef Id="888487327"/>
 								<MediaRef Id="942932008"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="4064446173" Id="2058049674"/>
+							<MediaRefs>
+								<MediaRef Id="100258467"/>
+								<MediaRef Id="441832329"/>
+								<MediaRef Id="493761235"/>
+								<MediaRef Id="582076955"/>
+								<MediaRef Id="850410868"/>
+								<MediaRef Id="923188151"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -846,5 +877,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AB8A9065-56D7-0DDA-0666-D50376623240}</FileHash>
+	<FileHash>{19682397-5B15-761B-7A6A-251C6239DE15}</FileHash>
 </SoundBanksInfo>

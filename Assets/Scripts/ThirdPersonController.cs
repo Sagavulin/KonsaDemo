@@ -90,6 +90,7 @@ namespace StarterAssets
         private float _rotationVelocity;
         private float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
+        private float _fallTimer;
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -324,8 +325,6 @@ namespace StarterAssets
                 if (_jumpTimeoutDelta >= 0.0f)
                 {
                     _jumpTimeoutDelta -= Time.deltaTime;
-                    //AkSoundEngine.SetRTPCValue("Player_LandHeight", Time.deltaTime * 1000);
-                    //Debug.Log("AIR TIME: " + Time.deltaTime * 1000);
                 }
             }
             else
@@ -344,6 +343,11 @@ namespace StarterAssets
                     if (_hasAnimator)
                     {
                         _animator.SetBool(_animIDFreeFall, true);
+                        
+                        // Calculations for fall duration
+                        /*_fallTimer = ;
+                        AkSoundEngine.SetRTPCValue("Player_LandHeight", _fallTimer);
+                        Debug.Log("AIR TIME: " + _fallTimer);*/
                     }
                 }
 
