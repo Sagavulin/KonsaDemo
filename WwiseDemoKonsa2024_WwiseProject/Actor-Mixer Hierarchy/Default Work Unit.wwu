@@ -5,6 +5,13 @@
 			<ChildrenList>
 				<WorkUnit Name="Player" ID="{5A1F1B40-F33A-4CA9-996F-FCB255BD30E2}" PersistMode="Reference"/>
 				<Sound Name="debug" ID="{134B53A8-A483-43C2-9F86-388365F91410}" ShortID="129747837">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8F49B6ED-F4F3-43B8-B727-C836578CDA33}"/>

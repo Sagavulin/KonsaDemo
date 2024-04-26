@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{66ACE0FE-A68E-69F6-07E0-B5FCC4A420BD}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{9DD55E4F-46BC-D3D2-937A-3E720E39C001}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
@@ -286,7 +286,7 @@
 				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1031089514" Type="User" Language="SFX" Hash="{1AA1A2B1-CC9C-47EC-0A43-33F47EC41E6F}">
+		<SoundBank Id="1031089514" Type="User" Language="SFX" Hash="{9EFA2346-9E87-88D5-284D-C6932AF91735}">
 			<ShortName>Debug</ShortName>
 			<Path>Debug.bnk</Path>
 			<Media>
@@ -877,5 +877,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{19682397-5B15-761B-7A6A-251C6239DE15}</FileHash>
+	<FileHash>{75A6A4CE-4646-580D-4114-1AA293FCB416}</FileHash>
 </SoundBanksInfo>

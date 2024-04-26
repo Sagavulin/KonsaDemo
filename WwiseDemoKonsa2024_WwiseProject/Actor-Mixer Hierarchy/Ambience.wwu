@@ -25,10 +25,28 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Amb_rocks" ID="{F9F4159B-C381-4910-A516-32CAF3362DE1}" ShortID="184647980">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{90B68CB0-6988-4F08-AF7B-FDC84EBCDE9B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-20</Value>
 											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{22A62510-C4FA-42BD-B9BA-56B4AED87F0D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="16"/>
+															<Property Name="Min" Type="Real64" Value="-26"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -151,6 +169,25 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Amb_rocks_fall_01" ID="{CEF165F8-5837-4523-91B3-63818FA322B9}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Amb_rocks_fall_02" ID="{37F6BCBA-97DF-4161-8E76-635A160C5619}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Amb_rocks_fall_04" ID="{27188CE2-2162-48D4-B74B-8A6A0648DC11}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Amb_rocks_fall_05" ID="{52D648DD-C535-4B92-8FFE-F0CCC73FF5AA}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Amb_rocks_fall_03" ID="{0E161E34-097B-489F-9A0F-51F1C287FC52}" WorkUnitID="{B32DFFFB-378D-4D97-B88D-EBC39AE85232}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
@@ -1012,6 +1049,7 @@
 								<Sound Name="Amb_space_loop" ID="{BA4A4742-F5B2-4074-9A93-5A3E5B757E8A}" ShortID="213322891">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-14</Value>

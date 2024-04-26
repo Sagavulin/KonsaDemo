@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	1031089514	Debug			\Default Work Unit\Debug	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105171383	debug	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\WwiseDemoKonsa2024\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\debug_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\debug		34854
+	105171383	debug	C:\Users\Niko Huttunen\Desktop\Personal\UnityProjects\KonsaDemo\WwiseDemoKonsa2024_WwiseProject\.cache\Windows\SFX\debug_89E8A5BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\debug		34854
 
